@@ -1,0 +1,17 @@
+#include <iostream>  // Header file that contains basic input and output operations  
+
+int main(){
+    std::cout << "I like pizza!" << std::endl;              // standard:: character output displays characters as output; "<<" means output; within quotation marks you write 							    // what is the be in the output
+                                               		    // the usage of ";" at the end of everything tells the compiler that a statement is done
+    std::cout << "It's really good!" << std::endl;          // std::endl is used to end the line and flush the output buffer, ensuring that all output is displayed 								    // immediately
+								
+
+    return 0; // If we reach return 0, there was no problem with the function at all because you got to the end of the function
+              //; if it returns 1 there was a problem
+
+
+}   
+
+Ao invés de usar "<< std::endl;", podes usar "<< '\n';"
+Comenta uma linha usando //
+Comenta multi-line com /* e fecha com */
